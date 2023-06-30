@@ -5,9 +5,7 @@
     --fonte-titulos: 'Skranji', cursive;
     --fonte-principal: 'Baloo Tamma 2', cursive;
     
-    --cor-principal: #e3f0f0;
-    --cor-caixa00: #b8e2a3;
-    --cor-caixa01: #fdfde0;
+    --cor-caixa: #fff87b;
     --cor-sombra: rgb(88, 84, 84);
     --cor-item: rgb(253, 225, 198);
 
@@ -17,7 +15,7 @@
 }
 
 body{
-    background-color: var(--cor-principal);
+    background-color: white;
     font-family: var(--fonte-principal);
 }
 
@@ -39,7 +37,7 @@ body{
     padding-right: 12px;
     padding-left: 12px;
     margin: auto;
-    background-color: var(--cor-caixa00);
+    background-color: var(--cor-caixa);
     border-radius: 65px 15px;
     border: 1px solid black;
     box-shadow: 1px 1px 1px var(--cor-sombra);
