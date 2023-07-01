@@ -8,9 +8,8 @@
     
     --cor-principal: #e3f0f0;
     --cor-caixa00: #b8e2a3;
-    --cor-caixa01: #fdfde0;
+    --cor-caixa01: #fcfcb4;
     --cor-sombra: rgb(80, 75, 75);
-    --cor-item: rgb(253, 225, 198);
     
     /*
     --cor-rodape: rgb(210, 194, 200);
@@ -46,7 +45,7 @@ body{
     padding-left: 12px;
     margin: auto;
     margin-bottom: 10px;
-    background-color: var(--cor-caixa00);
+    background-color: var(--cor-caixa01);
     border-radius: 65px 15px;
     border: 1px solid black;
     box-shadow: 1px 1px 1px var(--cor-sombra);
@@ -92,7 +91,7 @@ body{
     min-width: 10px;
     max-width: 250px;
     margin: auto;
-    background-color: var(--cor-caixa00);
+    background-color: var(--cor-caixa01);
     display: flex;
 }
 

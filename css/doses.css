@@ -7,9 +7,8 @@
     
     --cor-principal: #e3f0f0;
     --cor-caixa00: #b8e2a3;
-    --cor-caixa01: #fdfde0;
+    --cor-caixa01: #fcfcb4;
     --cor-sombra: rgb(88, 84, 84);
-    --cor-item: rgb(253, 225, 198);
 
     /*
     --cor-rodape: rgb(210, 194, 200);
@@ -113,7 +112,7 @@ body{
     margin-top: 0px;
     margin-right: 5px;
     margin-bottom: 20px;
-    background-color: var(--cor-item);
+    background-color: white;
     border-radius: 3px;
     border: 1px solid black;
 }
