@@ -13,9 +13,7 @@
     --cor-sombra: rgb(80, 75, 75);
     --cor-item: rgb(253, 225, 198);
     
-    /*
     --cor-rodape: rgb(210, 194, 200);
-    */
 }
 
 *{
@@ -23,13 +21,27 @@
 }
 
 body{
-    background-color: var(--cor-principal);
+    height: 100vh;
+    background: var(--cor-principal) url('imagens/papel-de-parede.jpg') repeat fixed;
+    background-size: 300px 300px;
     font-family: var(--fonte-principal);
+}
+
+#c-caixa-titulos{
+    background-color: var(--cor-caixa00);
+    width: 290px;
+    margin: auto;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 4px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px var(--cor-sombra);
 }
 
 .c-titulo-principal{
     margin-bottom: 15px;
-    font-size: 1.6em;
+    font-size: 1.3em;
     text-align: center;
     font-family: var(--fonte-titulos);    
 }
@@ -110,7 +122,6 @@ body{
     vertical-align: middle;
 }
 
-/*
 footer{
     padding: 6px;
     margin-top: 30px;
@@ -121,4 +132,3 @@ footer img{
     margin-left: 12px;
     vertical-align: middle;
 }
-*/
